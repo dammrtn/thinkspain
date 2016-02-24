@@ -1,0 +1,35 @@
+.tabs-searchbar{
+	width:924px;
+	margin:0 auto;
+}
+
+.tabs-searchbar > li > a {
+  margin-bottom: 1px;
+  width:130px;
+  text-align: center;
+  border-radius: 2px;
+  background-color: rgba(0,0,0,0.2);
+  color: #fff;
+  border:1px solid transparent;
+  font-weight: bold;
+  padding:30px 0;
+}
+
+.tabs-searchbar .fa{
+	color:#ffde00;
+	padding-bottom: 5px;
+}
+
+.tabs-searchbar > li > a:hover {
+	background-color: rgba(0,0,0,0.4);
+  border:1px solid transparent;
+}
+
+.tabs-searchbar > li.active > a,
+.tabs-searchbar > li.active > a:hover,
+.tabs-searchbar > li.active > a:focus {
+  background-color: rgba(0,0,0,0.6);
+  color:#fff;
+  border:1px solid transparent;
+  font-weight: bold;
+}

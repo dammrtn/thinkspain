@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Homepage - ThinkSpain</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/styles.css" />
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+	  <section class="welcome-banner">
+
+	  	<div class="container">
+			  <ul class="nav nav-tabs tabs-searchbar" role="tablist">
+			    <li role="presentation" class="active"><a href="#property" aria-controls="property" role="tab" data-toggle="tab"><i class="fa fa-2x fa-home"></i><br>Property</a></li>
+			    <li role="presentation"><a href="#directory" aria-controls="directory" role="tab" data-toggle="tab"><i class="fa fa-2x fa-folder-open-o"></i><br>Directory</a></li>
+			    <li role="presentation"><a href="#jobs" aria-controls="jobs" role="tab" data-toggle="tab"><i class="fa fa-2x fa-briefcase"></i><br>Jobs</a></li>
+			    <li role="presentation"><a href="#destination" aria-controls="destination" role="tab" data-toggle="tab"><i class="fa fa-2x fa-globe"></i><br>Destination</a></li>
+			    <li role="presentation"><a href="#news" aria-controls="news" role="tab" data-toggle="tab"><i class="fa fa-2x fa-file-text-o"></i><br>News</a></li>
+			    <li role="presentation"><a href="#weather" aria-controls="weather" role="tab" data-toggle="tab"><i class="fa fa-2x fa-sun-o"></i><br>Weather</a></li>
+			    <li role="presentation"><a href="#maps" aria-controls="maps" role="tab" data-toggle="tab"><i class="fa fa-2x fa-compass"></i><br>Maps</a></li>
+			  </ul>
+
+			  <div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active" id="property">
+			    	<div class="search-container">
+				    	<form>
+				    		<input type="radio" name="type_of_property" id="sale" value="sale" checked required>
+				    		<label for="sale">For Sale</label>
+				    		<input type="radio" name="type_of_property" id="rent" value="rent">
+				    		<label for="rent">For Rent</label>
+				    		<input type="radio" name="type_of_property" id="holidays" value="holidays">
+				    		<label for="holidays">For Holidays</label>
+				    		<div class="search-bar">
+				    			<label for="search-bar-location" class="search-label xs-margin-right">
+				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
+				    			</label>
+			    				<button id="submit-property" type="submit" class="btn btn-white xs-margin-right">Search</button>
+			    				<button id="submit-property-map" type="submit" class="btn btn-yellow"><i class="fa fa-map-marker"></i>  Show on map</button>
+				    		</div>
+			    		</form>
+			    	</div>
+			    	<div class="text-center sm-margin-top popular-searches">	
+			    		<span>Popular Searches: </span><a href="#">Valencia, </a><a href="#">Andalucía, </a><a href="#">Barcelona, </a><a href="#">Madrid, </a><a href="#">Málaga, </a><a href="#">Torrevieja</a> <a href="#"><i class="fa fa-plus-square"></i></a>
+			    	</div>
+			    </div>
+
+			    <div role="tabpanel" class="tab-pane" id="directory">
+			    	<div class="search-container">
+				    	<form>
+				    		<input type="radio" name="type_of_property" id="sale" value="sale" checked required>
+				    		<label for="sale">For Sale</label>
+				    		<input type="radio" name="type_of_property" id="rent" value="rent">
+				    		<label for="rent">For Rent</label>
+				    		<input type="radio" name="type_of_property" id="holidays" value="holidays">
+				    		<label for="holidays">For Holidays</label>
+				    		<div class="search-bar">
+				    			<label for="search-bar-location" class="search-label xs-margin-right">
+				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
+				    			</label>
+			    				<button id="submit-property" type="submit" class="btn btn-white xs-margin-right">Search</button>
+			    				<button id="submit-property-map" type="submit" class="btn btn-yellow">Show on map</button>
+				    		</div>
+			    		</form>
+			    	</div>
+			    </div>
+
+			    <div role="tabpanel" class="tab-pane" id="jobs">
+			    	<div class="search-container">
+				    	<form>
+				    		<input type="radio" name="type_of_property" id="sale" value="sale" checked required>
+				    		<label for="sale">For Sale</label>
+				    		<input type="radio" name="type_of_property" id="rent" value="rent">
+				    		<label for="rent">For Rent</label>
+				    		<input type="radio" name="type_of_property" id="holidays" value="holidays">
+				    		<label for="holidays">For Holidays</label>
+				    		<div class="search-bar">
+				    			<label for="search-bar-location" class="search-label xs-margin-right">
+				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
+				    			</label>
+			    				<button id="submit-property" type="submit" class="btn btn-white xs-margin-right">Search</button>
+			    				<button id="submit-property-map" type="submit" class="btn btn-yellow">Show on map</button>
+				    		</div>
+			    		</form>
+			    	</div>
+			    </div>
+
+			    <div role="tabpanel" class="tab-pane" id="destination">
+			    	<div class="search-container">
+				    	<form>
+				    		<input type="radio" name="type_of_property" id="sale" value="sale" checked required>
+				    		<label for="sale">For Sale</label>
+				    		<input type="radio" name="type_of_property" id="rent" value="rent">
+				    		<label for="rent">For Rent</label>
+				    		<input type="radio" name="type_of_property" id="holidays" value="holidays">
+				    		<label for="holidays">For Holidays</label>
+				    		<div class="search-bar">
+				    			<label for="search-bar-location" class="search-label xs-margin-right">
+				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
+				    			</label>
+			    				<button id="submit-property" type="submit" class="btn btn-white xs-margin-right">Search</button>
+			    				<button id="submit-property-map" type="submit" class="btn btn-yellow">Show on map</button>
+				    		</div>
+			    		</form>
+			    	</div>
+			    </div>
+
+			    <div role="tabpanel" class="tab-pane" id="news">
+			    	<div class="search-container">
+				    	<form>
+				    		<input type="radio" name="type_of_property" id="sale" value="sale" checked required>
+				    		<label for="sale">For Sale</label>
+				    		<input type="radio" name="type_of_property" id="rent" value="rent">
+				    		<label for="rent">For Rent</label>
+				    		<input type="radio" name="type_of_property" id="holidays" value="holidays">
+				    		<label for="holidays">For Holidays</label>
+				    		<div class="search-bar">
+				    			<label for="search-bar-location" class="search-label xs-margin-right">
+				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
+				    			</label>
+			    				<button id="submit-property" type="submit" class="btn btn-white xs-margin-right">Search</button>
+			    				<button id="submit-property-map" type="submit" class="btn btn-yellow">Show on map</button>
+				    		</div>
+			    		</form>
+			    	</div>
+			    </div>
+
+			    <div role="tabpanel" class="tab-pane" id="weather">
+			    	<div class="search-container">
+				    	<form>
+				    		<input type="radio" name="type_of_property" id="sale" value="sale" checked required>
+				    		<label for="sale">For Sale</label>
+				    		<input type="radio" name="type_of_property" id="rent" value="rent">
+				    		<label for="rent">For Rent</label>
+				    		<input type="radio" name="type_of_property" id="holidays" value="holidays">
+				    		<label for="holidays">For Holidays</label>
+				    		<div class="search-bar">
+				    			<label for="search-bar-location" class="search-label xs-margin-right">
+				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
+				    			</label>
+			    				<button id="submit-property" type="submit" class="btn btn-white xs-margin-right">Search</button>
+			    				<button id="submit-property-map" type="submit" class="btn btn-yellow">Show on map</button>
+				    		</div>
+			    		</form>
+			    	</div>
+			    </div>
+
+			    <div role="tabpanel" class="tab-pane" id="maps">
+						<div class="search-container">
+				    	<form>
+				    		<input type="radio" name="type_of_property" id="sale" value="sale" checked required>
+				    		<label for="sale">For Sale</label>
+				    		<input type="radio" name="type_of_property" id="rent" value="rent">
+				    		<label for="rent">For Rent</label>
+				    		<input type="radio" name="type_of_property" id="holidays" value="holidays">
+				    		<label for="holidays">For Holidays</label>
+				    		<div class="search-bar">
+				    			<label for="search-bar-location" class="search-label xs-margin-right">
+				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
+				    			</label>
+			    				<button id="submit-property" type="submit" class="btn btn-white xs-margin-right">Search</button>
+			    				<button id="submit-property-map" type="submit" class="btn btn-yellow">Show on map</button>
+				    		</div>
+			    		</form>
+			    	</div>
+			    </div>
+			  </div>
+
+	  	</div>
+	  </section>
+
+	  <div class="container">
+	  	
+	  	<section class="md-padding">
+	  		<h2>Featured Properties</h2>
+	  		<div class="text-center">	
+	  			<a href="#" class="text-uppercase btn btn-blue">Show more</a>
+	  		</div>
+	  	</section><!-- End Featured Properties section -->
+
+	  	<section class="md-padding text-center">	
+	  			<img src="images/banner.jpg" alt="Banner Ad">
+	  	</section><!-- End Banner Ad section -->
+
+	  	<section class="md-padding">
+	  		<h2>News</h2>
+	  		<div class="text-center">	
+	  			<a href="#" class="text-uppercase btn btn-blue">Show more</a>
+	  		</div>
+	  	</section><!-- End News section -->
+
+	  	<section class="md-padding">
+	  		<h2>Destinations</h2>
+	  		<div class="text-center">	
+	  			<a href="#" class="text-uppercase btn sm-btn-blue">Show more destinations</a>
+	  		</div>
+	  	</section><!-- End Destinations section -->
+
+	  </div><!-- End container -->
+
+	  <section>
+	  	<div class="container">
+	  		<h2>Find a Job</h2>
+	  	</div>
+	  </section><!-- End Find a job section -->
+
+	  <div class="container">
+	  	
+	  	<section class="md-padding">
+	  		<h2>Featured Properties</h2>
+	  		<div class="text-center">	
+	  			<a href="#" class="text-uppercase btn btn-blue">Show more</a>
+	  		</div>
+	  	</section><!-- End Featured Properties section -->
+
+	  </div><!-- End container -->
+
+	  <footer>
+	  	
+	  </footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>

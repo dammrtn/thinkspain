@@ -1,0 +1,11 @@
+.welcome-banner{
+	height: 100vh;
+	background: url("../../images/header-bg.jpg") no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}

@@ -1,0 +1,43 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* 			   			Typography		  		  */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* 			   	Components design	  		  */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+@import url("components/bootstrap-custom.css");
+@import url("components/section.css");
+@import url("components/margin-and-padding.css");
+@import url("components/button.css");
+@import url("components/tabs.css");
+@import url("components/container.css");
+
+
+
+
+html{font-family: "Lato";}
+
+body{
+	margin:0!important;
+	background-color:#f1f1f1;
+}
+
+.text-uppercase{text-transform: uppercase;}
+
+.float-right{float:right!important;}
+.float-left{float:left!important;}
+.text-center{text-align: center!important;}
+.text-right{text-align:right!important;}
+.text-left{text-align:left!important;}
+
+.popular-searches a,
+.popular-searches span{
+	font-weight: bold;
+	color: #fff;
+	text-decoration: underline;
+}

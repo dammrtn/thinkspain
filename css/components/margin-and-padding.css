@@ -1,0 +1,62 @@
+.xs-margin{margin:10px!important;}
+.xs-margin-left{margin-left: 10px!important;}
+.xs-margin-right{margin-right: 10px!important;}
+.xs-margin-top{margin-top: 10px!important;}
+.xs-margin-bottom{margin-bottom: 10px!important;}
+
+.sm-margin{margin:20px!important;}
+.sm-margin-left{margin-left:20px!important;}
+.sm-margin-right{margin-right:20px!important;}
+.sm-margin-top{margin-top:20px!important;}
+.sm-margin-bottom{margin-bottom:20px!important;}
+
+.md-margin{margin:50px!important;}
+.md-margin-left{margin-left:50px!important;}
+.md-margin-right{margin-right:50px!important;}
+.md-margin-top{margin-top:50px!important;}
+.md-margin-bottom{margin-bottom:50px!important;}
+
+.lg-margin{margin:75px!important;}
+.lg-margin-left{margin-left:75px!important;}
+.lg-margin-right{margin-right:75px!important;}
+.lg-margin-top{margin-top:75px!important;}
+.lg-margin-bottom{margin-bottom:75px!important;}
+
+.xl-margin{margin:100px!important;}
+.xl-margin-left{margin-left:100px!important;}
+.xl-margin-right{margin-right:100px!important;}
+.xl-margin-top{margin-top:100px!important;}
+.xl-margin-bottom{margin-bottom:100px!important;}
+
+.xs-padding{padding:10px!important;}
+.xs-padding-left{padding-left: 10px!important;}
+.xs-padding-right{padding-right: 10px!important;}
+.xs-padding-top{padding-top: 10px!important;}
+.xs-padding-bottom{padding-bottom: 10px!important;}
+
+.sm-padding{padding:20px!important;}
+.sm-padding-left{padding-left:20px!important;}
+.sm-padding-right{padding-right:20px!important;}
+.sm-padding-top{padding-top:20px!important;}
+.sm-padding-bottom{padding-bottom:20px!important;}
+
+.md-padding{padding:50px!important;}
+.md-padding-left{padding-left:50px!important;}
+.md-padding-right{padding-right:50px!important;}
+.md-padding-top{padding-top:50px!important;}
+.md-padding-bottom{padding-bottom:50px!important;}
+
+.lg-padding{padding:75px!important;}
+.lg-padding-left{padding-left:75px!important;}
+.lg-padding-right{padding-right:75px!important;}
+.lg-padding-top{padding-top:75px!important;}
+.lg-padding-bottom{padding-bottom:75px!important;}
+
+.xl-padding{padding:100px!important;}
+.xl-padding-left{padding-left:100px!important;}
+.xl-padding-right{padding-right:100px!important;}
+.xl-padding-top{padding-top:100px!important;}
+.xl-padding-bottom{padding-bottom:100px!important;}
+
+.no-margin{margin:0 !important;}
+.no-padding{padding:0 !important;}
