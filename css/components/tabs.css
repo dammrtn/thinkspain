@@ -1,18 +1,18 @@
-.tabs-searchbar{
-	width:924px;
-	margin:0 auto;
+.tabs-searchbar > li {
+  width: 14.285714285714285714285714285714%;
+  *width: 14.285714285714285714285714285714%;
 }
 
-.tabs-searchbar > li > a {
-  margin-bottom: 1px;
-  width:130px;
+.tabs-searchbar > li > a,
+.tabs-searchbar > li > a:focus {
   text-align: center;
   border-radius: 2px;
   background-color: rgba(0,0,0,0.2);
   color: #fff;
-  border:1px solid transparent;
+  border:0;
   font-weight: bold;
   padding:30px 0;
+  margin-right: 1px;
 }
 
 .tabs-searchbar .fa{
@@ -22,7 +22,7 @@
 
 .tabs-searchbar > li > a:hover {
 	background-color: rgba(0,0,0,0.4);
-  border:1px solid transparent;
+  border:0;
 }
 
 .tabs-searchbar > li.active > a,
@@ -30,6 +30,8 @@
 .tabs-searchbar > li.active > a:focus {
   background-color: rgba(0,0,0,0.6);
   color:#fff;
-  border:1px solid transparent;
+  border:0;
   font-weight: bold;
 }
+
+.tabs-searchbar-last-child{margin-right: 0!important;}

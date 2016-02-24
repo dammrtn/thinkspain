@@ -22,7 +22,7 @@
 
 	  <section class="welcome-banner">
 
-	  	<div class="container">
+	  	<div class="sm-container">
 			  <ul class="nav nav-tabs tabs-searchbar" role="tablist">
 			    <li role="presentation" class="active"><a href="#property" aria-controls="property" role="tab" data-toggle="tab"><i class="fa fa-2x fa-home"></i><br>Property</a></li>
 			    <li role="presentation"><a href="#directory" aria-controls="directory" role="tab" data-toggle="tab"><i class="fa fa-2x fa-folder-open-o"></i><br>Directory</a></li>
@@ -30,7 +30,7 @@
 			    <li role="presentation"><a href="#destination" aria-controls="destination" role="tab" data-toggle="tab"><i class="fa fa-2x fa-globe"></i><br>Destination</a></li>
 			    <li role="presentation"><a href="#news" aria-controls="news" role="tab" data-toggle="tab"><i class="fa fa-2x fa-file-text-o"></i><br>News</a></li>
 			    <li role="presentation"><a href="#weather" aria-controls="weather" role="tab" data-toggle="tab"><i class="fa fa-2x fa-sun-o"></i><br>Weather</a></li>
-			    <li role="presentation"><a href="#maps" aria-controls="maps" role="tab" data-toggle="tab"><i class="fa fa-2x fa-compass"></i><br>Maps</a></li>
+			    <li role="presentation"><a href="#maps" aria-controls="maps" role="tab" data-toggle="tab" class="tabs-searchbar-last-child"><i class="fa fa-2x fa-compass"></i><br>Maps</a></li>
 			  </ul>
 
 			  <div class="tab-content">
@@ -43,13 +43,17 @@
 				    		<label for="rent">For Rent</label>
 				    		<input type="radio" name="type_of_property" id="holidays" value="holidays">
 				    		<label for="holidays">For Holidays</label>
-				    		<div class="search-bar">
-				    			<label for="search-bar-location" class="search-label xs-margin-right">
+				    		<div class="search-bar">	
+				    			<label for="search-bar-location" class="search-label">
 				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
 				    			</label>
-			    				<button id="submit-property" type="submit" class="btn btn-white xs-margin-right">Search</button>
-			    				<button id="submit-property-map" type="submit" class="btn btn-yellow"><i class="fa fa-map-marker"></i>  Show on map</button>
-				    		</div>
+				    			<div class="div-btn-white">
+			    					<button id="submit-property" type="submit" class="btn btn-white">Search</button>
+			    				</div>
+			    				<div class="div-btn-yellow">
+			    					<button id="submit-property-map" type="submit" class="btn btn-yellow"><i class="fa fa-map-marker"></i>  Show on map</button>
+			    				</div>
+			    			</div>
 			    		</form>
 			    	</div>
 			    	<div class="text-center sm-margin-top popular-searches">	
