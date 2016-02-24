@@ -65,12 +65,12 @@
 			    <div role="tabpanel" class="tab-pane active" id="property">
 			    	<div class="search-container">
 				    	<form>
-				    		<input type="radio" name="type_of_property" id="sale" value="sale" checked required>
-				    		<label for="sale">For Sale</label>
-				    		<input type="radio" name="type_of_property" id="rent" value="rent">
-				    		<label for="rent">For Rent</label>
-				    		<input type="radio" name="type_of_property" id="holidays" value="holidays">
-				    		<label for="holidays">For Holidays</label>
+				    		<input type="radio" name="type_of_property" id="property-sale" value="sale" checked required>
+				    		<label for="property-sale">For Sale</label>
+				    		<input type="radio" name="type_of_property" id="property-rent" value="rent">
+				    		<label for="property-rent">For Rent</label>
+				    		<input type="radio" name="type_of_property" id="property-holidays" value="holidays">
+				    		<label for="property-holidays">For Holidays</label>
 				    		<div class="search-bar">	
 				    			<label for="search-bar-location" class="search-label">
 				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
@@ -255,24 +255,178 @@
 	  	</div>
 	  </section>
 
-	  <div class="container">
+	  <div class="container-fluid">
 	  	
 	  	<section class="md-padding">
-	  		<h2>Featured Properties</h2>
-	  		<div class="text-center">	
-	  			<a href="#" class="text-uppercase btn btn-blue">Show more</a>
-	  		</div>
+		  	<div class="title-section">	
+		  		<h2>Featured Properties</h2>
+		  		<ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation" class="active"><a href="#featured-property-sale" aria-controls="featured-property-sale" role="tab" data-toggle="tab">For Sale</a></li>
+				    <li role="presentation"><a href="#featured-property-rent" aria-controls="featured-property-rent" role="tab" data-toggle="tab">For Rent</a></li>
+				    <li role="presentation"><a href="#featured-property-holidays" aria-controls="featured-property-holidays" role="tab" data-toggle="tab">For Holidays</a></li>
+				  </ul>
+				</div>
+
+			  <div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active" id="featured-property-sale">
+				    <div class="md-padding">
+
+				    	<div class="row">
+				    		<div class="col-md-3">
+					    		<div class="thumbnail">
+						    		<a href="#">
+						    			<img src="images/news/beach.jpg" alt="beach">
+							    		<div class="caption-blue">
+							    			<h3>500.000€</h3>
+							    			<p>Featured Property</p>
+							    			<p>in Cala Anguila (Mallorca)</p>
+							    		</div>
+							    	</a>
+						    	</div>
+				    		</div>
+				    		<div class="col-md-3">
+					    		<div class="thumbnail">
+					    			<a href="#">
+						    			<img src="images/news/mountains.jpg" alt="mountains">
+							    		<div class="caption-blue">
+							    			<h3>80.000€</h3>
+							    			<p>Featured Property</p>
+							    			<p>in Cala Anguila (Mallorca)</p>
+							    		</div>
+							    	</a>
+						    	</div>
+				    		</div>
+				    		<div class="col-md-3">
+					    		<div class="thumbnail">
+					    			<a href="#">
+						    			<img src="images/news/forest.jpg" alt="forest">
+							    		<div class="caption-blue">
+							    			<h3>250.000€</h3>
+							    			<p>Featured Property</p>
+							    			<p>in Cala Anguila (Mallorca)</p>
+							    		</div>
+							    	</a>
+						    	</div>
+				    		</div>
+				    		<div class="col-md-3">
+					    		<div class="thumbnail">
+					    			<a href="#">
+						    			<img src="images/news/massey-hall.jpg" alt="Massey Hall">
+							    		<div class="caption-blue">
+							    			<h3>1.500.000€</h3>
+							    			<p>Featured Property</p>
+							    			<p>in Cala Anguila (Mallorca)</p>
+							    		</div>
+							    	</a>
+						    	</div>
+				    		</div>
+				    	</div>
+
+				    	<div class="row sm-margin-top">
+				    		<div class="col-md-3">
+					    		<div class="thumbnail">
+						    		<a href="#">
+						    			<img src="images/news/beach.jpg" alt="beach">
+							    		<div class="caption-blue">
+							    			<h3>500.000€</h3>
+							    			<p>Featured Property</p>
+							    			<p>in Cala Anguila (Mallorca)</p>
+							    		</div>
+							    	</a>
+						    	</div>
+				    		</div>
+				    		<div class="col-md-3">
+					    		<div class="thumbnail">
+					    			<a href="#">
+						    			<img src="images/news/mountains.jpg" alt="mountains">
+							    		<div class="caption-blue">
+							    			<h3>80.000€</h3>
+							    			<p>Featured Property</p>
+							    			<p>in Cala Anguila (Mallorca)</p>
+							    		</div>
+							    	</a>
+						    	</div>
+				    		</div>
+				    		<div class="col-md-3">
+					    		<div class="thumbnail">
+					    			<a href="#">
+						    			<img src="images/news/forest.jpg" alt="forest">
+							    		<div class="caption-blue">
+							    			<h3>250.000€</h3>
+							    			<p>Featured Property</p>
+							    			<p>in Cala Anguila (Mallorca)</p>
+							    		</div>
+							    	</a>
+						    	</div>
+				    		</div>
+				    		<div class="col-md-3">
+					    		<div class="thumbnail">
+					    			<a href="#">
+						    			<img src="images/news/massey-hall.jpg" alt="Massey Hall">
+							    		<div class="caption-blue">
+							    			<h3>1.500.000€</h3>
+							    			<p>Featured Property</p>
+							    			<p>in Cala Anguila (Mallorca)</p>
+							    			<hr>
+							    			<button>Show on map</button>
+							    			<button>Add to Favourite</button>
+							    		</div>
+							    	</a>
+						    	</div>
+				    		</div>
+				    	</div>
+
+				    	<div class="text-center sm-margin-top">	
+				  			<a href="#" class="text-uppercase btn btn-blue">Show more</a>
+				  		</div>
+				  	</div>
+			    </div><!-- End tabpanel featured property sale -->
+
+			    <div role="tabpanel" class="tab-pane" id="featured-property-rent">
+						<div class="text-center">	
+			  			<a href="#" class="text-uppercase btn btn-blue">Show more rent</a>
+			  		</div>
+			    </div><!-- End tabpanel featured property rent -->
+
+			    <div role="tabpanel" class="tab-pane" id="featured-property-holidays">
+			    	<div class="text-center">	
+			  			<a href="#" class="text-uppercase btn btn-blue">Show more holidays</a>
+			  		</div>
+			    </div><!-- End tabpanel featured property holidays -->
+			  </div>
+	  			
+	  		
 	  	</section><!-- End Featured Properties section -->
 
-	  	<section class="md-padding text-center">	
-	  			<img src="images/banner.jpg" alt="Banner Ad">
+	  	<section class="xs-padding">
+	  			<img src="images/banner.jpg" alt="Banner Ad" class="center-block img-responsive">
 	  	</section><!-- End Banner Ad section -->
 
 	  	<section class="md-padding">
-	  		<h2>News</h2>
-	  		<div class="text-center">	
-	  			<a href="#" class="text-uppercase btn btn-blue">Show more</a>
-	  		</div>
+	  		<div class="title-section">	
+		  		<h2>News</h2>
+		  	</div>
+		  	<div class="md-padding">
+		  		<div class="row">
+		  			<div class="col-md-8">
+		  				<img src="images/news/birds.jpg" alt="Birds" width="100%">
+		  			</div>
+		  			<div class="col-md-4" style="background-color: #fff;">
+		  				<h3>Top Stories</h3>
+		  				<hr>
+		  				<p>Force evacuations after dam breaks</p>
+		  				<p>5 things you need to know Wednesday</p>
+		  				<p>Russia open to coordinationg with U.S. on Syria</p>
+		  				<p>Armour: Changes coming to daily fantasy sports</p>
+		  				<p>Woman punched by cop video arrested again</p>
+		  				<p>Once-in-alifetime 'shot at L.A. NFL team</p>
+		  				<p>Pilot get ill, loses consiousness during flight</p>
+		  			</div>
+		  		</div>
+		  		<div class="text-center">	
+		  			<a href="#" class="text-uppercase btn btn-blue">Show more</a>
+		  		</div>
+		  	</div>
 	  	</section><!-- End News section -->
 
 	  	<section class="md-padding">
@@ -282,15 +436,9 @@
 	  		</div>
 	  	</section><!-- End Destinations section -->
 
-	  </div><!-- End container -->
-
 	  <section>
-	  	<div class="container">
 	  		<h2>Find a Job</h2>
-	  	</div>
 	  </section><!-- End Find a job section -->
-
-	  <div class="container">
 	  	
 	  	<section class="md-padding">
 	  		<h2>Featured Properties</h2>
@@ -302,7 +450,7 @@
 	  </div><!-- End container -->
 
 	  <footer>
-	  	<div class="container">
+	  	<div class="container-fluid">
 		  	<h2>Most Popular</h2>
 		  	<div class="row">
 		  		<div class="col-sm-3">

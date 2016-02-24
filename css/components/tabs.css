@@ -1,3 +1,5 @@
+.nav-tabs{border-bottom: 0;}
+
 .tabs-searchbar > li {
   width: 14.285714285714285714285714285714%;
   *width: 14.285714285714285714285714285714%;
@@ -35,3 +37,45 @@
 }
 
 .tabs-searchbar-last-child{margin-right: 0!important;}
+
+.title-section{
+  padding-left: 50px;
+  padding-right: 50px;
+  border-bottom: 1px solid #bdbdbd;
+  padding-bottom: 10px;
+}
+
+.title-section h2{
+  font-size: 24px;
+  font-weight: bold;
+  color:#4382ce;
+  margin:0;
+  display: inline-block;
+}
+
+.title-section .nav-tabs{
+  float:right;
+  display: inline-block;
+}
+
+.title-section .nav-tabs > li > a {
+  font-weight: bold;
+  color:#707070;
+  border: 0;
+}
+
+.title-section .nav-tabs > li > a:hover {
+  color:#6091cd;
+  border:0;
+  background-color: transparent;
+}
+
+.title-section .nav-tabs > li.active > a,
+.title-section .nav-tabs > li.active > a:hover,
+.title-section .nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: transparent;
+  border: 0;
+  color:#4382ce;
+}
