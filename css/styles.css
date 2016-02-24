@@ -11,7 +11,6 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 @import url("components/bootstrap-custom.css");
-@import url("components/section.css");
 @import url("components/margin-and-padding.css");
 @import url("components/button.css");
 @import url("components/tabs.css");
@@ -40,4 +39,9 @@ body{
 	font-weight: bold;
 	color: #fff;
 	text-decoration: underline;
+}
+
+footer h3{
+	color:#ffde00;
+	font-weight: bold;
 }

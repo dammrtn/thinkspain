@@ -1,3 +1,15 @@
+.welcome-banner{
+	height: 100vh;
+	background: url("../../images/header-bg.jpg") no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
 .sm-container {
   padding-right: 15px;
   padding-left: 15px;
@@ -99,4 +111,22 @@
 
 .div-btn-yellow{
 	width: 20%;
+}
+
+footer{
+	background-color: #4382ce;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+.list-layout{
+	list-style: none;
+	padding-left: 0;
+	padding-top:5px;
+}
+
+.list-layout li a{
+	text-decoration: none;
+	color:#fff;
 }
