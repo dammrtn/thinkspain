@@ -1,0 +1,87 @@
+.md-card{height: 350px;}
+.lg-card{height: 730px;}
+
+.card{
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.card-link,
+.card-link:hover{
+	text-decoration: none!important;
+}
+
+.caption-blue{
+	background-color: #4382ce;
+}
+
+.birds-card{background-image: url(../../images/news/birds.jpg);}
+.comunidad-valenciana-card{background-image: url(../../images/destinations/comunidad-valenciana.jpg);}
+.sevilla-card{background-image: url(../../images/destinations/sevilla.jpg);}
+.huesca-card{background-image: url(../../images/destinations/huesca.jpg);}
+.andalucia-card{background-image: url(../../images/destinations/andalucia.jpg);}
+.mallorca-card{background-image: url(../../images/destinations/mallorca.jpg);}
+.madrid-card{background-image: url(../../images/destinations/madrid.jpg);}
+.pais-vasco-card{background-image: url(../../images/destinations/paisvasco.jpg);}
+
+.va-container{
+	display: table;
+  position: relative;
+}
+
+.va-container-h{width: 100%;}
+.va-container-v{height: 100%;}
+
+.va-row{display: table-row;}
+
+.va-top,
+.va-middle,
+.va-bottom{
+	display: table-cell;
+}
+
+.va-top{vertical-align: top;}
+.va-middle{vertical-align: middle;}
+.va-bottom{vertical-align: bottom;}
+
+
+
+.thumbnail {
+	background-color:#4382ce;
+	border:0;
+	border-radius: 0;
+	padding:0;
+}
+
+.thumbnail .caption-blue{
+	color:#fff;
+	padding:0 15px 20px 15px;
+}
+
+.thumbnail > img,
+.thumbnail a > img{
+	width:100%;
+}
+
+.thumbnail a:hover{
+	text-decoration: none;
+}
+
+.thumbnail h3{
+	margin:20px 0;
+	font-weight: 600;
+}
+
+.thumbnail p{
+	margin:0;
+}
+
+.thumbnail .caption-blue hr{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}

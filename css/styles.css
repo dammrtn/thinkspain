@@ -15,16 +15,16 @@
 @import url("components/margin-and-padding.css");
 @import url("components/button.css");
 @import url("components/tabs.css");
+@import url("components/cards.css");
 @import url("components/dropdown.css");
 
 
 
 
-html{font-family: "Lato";}
-
 body{
 	margin:0!important;
 	background-color:#f1f1f1;
+	font-family: "Lato";
 }
 
 .text-uppercase{text-transform: uppercase;}
@@ -35,18 +35,29 @@ body{
 .text-right{text-align:right!important;}
 .text-left{text-align:left!important;}
 
+.white{color:#fff!important;}
+
+.h2{
+	font-size:32px;
+	font-weight: bold;
+}
+
+.h3{
+	font-size:26px;
+	font-weight: bold;
+}
+
+.breaking-news{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
 .popular-searches a,
 .popular-searches span{
 	font-weight: bold;
 	color: #fff;
 	text-decoration: underline;
-}
-
-.img-center{
-	margin-right: auto;
-	margin-left: auto;
-	width: 100%;
-	display: block;
 }
 
 footer h3{
