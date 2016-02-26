@@ -1,1 +1,21 @@
-dropdown.css
+.dropdown-menu{
+	background-color: rgba(0,0,0,0.6);
+	min-width: 0;
+	border: 0;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+  box-shadow: none;
+  margin-left:-15px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #e0e0e0;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.65);
+}
+
+.dropdown a:focus{
+	border:0;
+	text-decoration: none;
+}

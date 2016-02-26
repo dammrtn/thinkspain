@@ -25,6 +25,7 @@ body{
 	margin:0!important;
 	background-color:#f1f1f1;
 	font-family: "Lato";
+	font-size: 16px;
 }
 
 .text-uppercase{text-transform: uppercase;}
@@ -35,18 +36,22 @@ body{
 .text-right{text-align:right!important;}
 .text-left{text-align:left!important;}
 
-.white{color:#fff!important;}
+.text-white{color:#fff!important;}
+.text-yellow{color:#ffde00!important;}
+.text-blue{color:#4382ce!important;}
 
-.h2{
+h2, .h2{
 	font-size:32px;
 	font-weight: bold;
 }
 
-.h3{
+h3, .h3{
 	font-size:26px;
 	font-weight: bold;
 	margin:0;
 }
+
+.fa-18{font-size: 18px; vertical-align: middle;}
 
 .breaking-news{
 	display: block;
@@ -59,9 +64,4 @@ body{
 	font-weight: bold;
 	color: #fff;
 	text-decoration: underline;
-}
-
-footer h3{
-	color:#ffde00;
-	font-weight: bold;
 }

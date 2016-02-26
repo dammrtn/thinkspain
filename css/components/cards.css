@@ -36,34 +36,6 @@
   width: 100%;
 }
 
-.va-container{
-	display: table;
-  position: relative;
-  border:0;
-}
-
-.va-container-h{width: 100%;
-  border:0;}
-.va-container-v{height: 100%;
-  border:0;}
-
-.va-row{display: table-row;
-  border:0;}
-
-.va-top,
-.va-middle,
-.va-bottom{
-	display: table-cell;
-}
-
-.va-top{vertical-align: top;}
-.va-middle{vertical-align: middle;}
-.va-bottom{vertical-align: bottom;}
-
-.va-header{display:table-header-group;}
-.va-footer{display:table-footer-group;
-  border:0;}
-
 .thumbnail{
 	border:0;
 	border-radius: 0;

@@ -27,10 +27,23 @@
   				<li><a href="#"><i class="fa fa-eye"></i>&nbsp;&nbsp;Recently seen</a></li>
   				<li><a href="#"><i class="fa fa-heart-o"></i>&nbsp;&nbsp;Favourites</a></li>
   				<li><a href="#"><i class="fa fa-user"></i>&nbsp;&nbsp;My account</a></li>
-  				<li><a href="#">EN&nbsp;&nbsp;<i class="fa fa-angle-down"></i></a></li>
-  				<li><a href="#">USD&nbsp;&nbsp;<i class="fa fa-angle-down"></i></a></li>
+  				<li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EN&nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">ES</a></li>
+	            <li><a href="#">FR</a></li>
+	          </ul>
+	        </li>
+  				<li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">USD&nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">EUR</a></li>
+	            <li><a href="#">GBP</a></li>
+	          </ul>
+	        </li>
   			</ul>
   		</div>
+
   		<div class="main-menu">
   			<div class="header-pull-left">
   				<a href="index.html"><img src="images/logo.png" alt="Logo thinkSpain" title="Logo thinkSpain" ></a>
@@ -49,7 +62,6 @@
   	</header>
 
 	  <section class="welcome-banner">
-
 	  	<div class="sm-container">
 			  <ul class="nav nav-tabs tabs-searchbar" role="tablist">
 			    <li role="presentation" class="active"><a href="#property" aria-controls="property" role="tab" data-toggle="tab"><i class="fa fa-2x fa-home"></i><br>Property</a></li>
@@ -76,10 +88,10 @@
 				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
 				    			</label>
 				    			<div class="div-btn-white">
-			    					<button id="submit-property" type="submit" class="btn btn-white">Search</button>
+			    					<button id="submit-property" type="submit" class="btn btn-white-search">Search</button>
 			    				</div>
 			    				<div class="div-btn-yellow">
-			    					<button id="submit-property-map" type="submit" class="btn btn-yellow"><i class="fa fa-map-marker"></i>  Show on map</button>
+			    					<button id="submit-property-map" type="submit" class="btn btn-yellow"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show on map</button>
 			    				</div>
 			    			</div>
 			    		</form>
@@ -103,7 +115,7 @@
 				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
 				    			</label>
 				    			<div class="div-btn-white">
-			    					<button id="submit-property" type="submit" class="btn btn-white">Search</button>
+			    					<button id="submit-property" type="submit" class="btn btn-white-search">Search</button>
 			    				</div>
 			    				<div class="div-btn-yellow">
 			    					<button id="submit-property-map" type="submit" class="btn btn-yellow"><i class="fa fa-map-marker"></i>  Show on map</button>
@@ -130,7 +142,7 @@
 				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
 				    			</label>
 				    			<div class="div-btn-white">
-			    					<button id="submit-property" type="submit" class="btn btn-white">Search</button>
+			    					<button id="submit-property" type="submit" class="btn btn-white-search">Search</button>
 			    				</div>
 			    				<div class="div-btn-yellow">
 			    					<button id="submit-property-map" type="submit" class="btn btn-yellow"><i class="fa fa-map-marker"></i>  Show on map</button>
@@ -157,7 +169,7 @@
 				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
 				    			</label>
 				    			<div class="div-btn-white">
-			    					<button id="submit-property" type="submit" class="btn btn-white">Search</button>
+			    					<button id="submit-property" type="submit" class="btn btn-white-search">Search</button>
 			    				</div>
 			    				<div class="div-btn-yellow">
 			    					<button id="submit-property-map" type="submit" class="btn btn-yellow"><i class="fa fa-map-marker"></i>  Show on map</button>
@@ -184,7 +196,7 @@
 				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
 				    			</label>
 				    			<div class="div-btn-white">
-			    					<button id="submit-property" type="submit" class="btn btn-white">Search</button>
+			    					<button id="submit-property" type="submit" class="btn btn-white-search">Search</button>
 			    				</div>
 			    				<div class="div-btn-yellow">
 			    					<button id="submit-property-map" type="submit" class="btn btn-yellow"><i class="fa fa-map-marker"></i>  Show on map</button>
@@ -211,7 +223,7 @@
 				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
 				    			</label>
 				    			<div class="div-btn-white">
-			    					<button id="submit-property" type="submit" class="btn btn-white">Search</button>
+			    					<button id="submit-property" type="submit" class="btn btn-white-search">Search</button>
 			    				</div>
 			    				<div class="div-btn-yellow">
 			    					<button id="submit-property-map" type="submit" class="btn btn-yellow"><i class="fa fa-map-marker"></i>  Show on map</button>
@@ -238,7 +250,7 @@
 				    				<input type="text" id="search-bar-location" class="search-bar-location" placeholder="e.g. Valencia, Málaga, Madrid, Barcelona">
 				    			</label>
 				    			<div class="div-btn-white">
-			    					<button id="submit-property" type="submit" class="btn btn-white">Search</button>
+			    					<button id="submit-property" type="submit" class="btn btn-white-search">Search</button>
 			    				</div>
 			    				<div class="div-btn-yellow">
 			    					<button id="submit-property-map" type="submit" class="btn btn-yellow"><i class="fa fa-map-marker"></i>  Show on map</button>
@@ -255,8 +267,7 @@
 	  	</div>
 	  </section>
 
-	  <div class="container-fluid">
-	  	
+	  <div class="container-fluid">	  	
 	  	<section class="md-padding">
 		  	<div class="title-section">	
 		  		<h2>Featured Properties</h2>
@@ -276,7 +287,7 @@
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/beach.jpg" alt="Beach">
 				  						<div class="caption caption-blue">
-				  							<div class="sm-padding white">
+				  							<div class="sm-padding text-white">
 						  							<div class="h3">500.000€</div>
 						  							<div class="sm-margin-top">Featured Property</div>
 						  							<div>in Cala Anguila (Mallorca)</div>
@@ -291,7 +302,7 @@
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/mountains.jpg" alt="Mountains">
 				  						<div class="caption caption-blue">
-				  							<div class="sm-padding white">
+				  							<div class="sm-padding text-white">
 						  							<div class="h3">80.000€</div>
 						  							<div class="sm-margin-top">Featured Property</div>
 						  							<div>in Cala Anguila (Mallorca)</div>
@@ -306,7 +317,7 @@
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/forest.jpg" alt="forest">
 				  						<div class="caption caption-blue">
-				  							<div class="sm-padding white">
+				  							<div class="sm-padding text-white">
 						  							<div class="h3">250.000€</div>
 						  							<div class="sm-margin-top">Featured Property</div>
 						  							<div>in Cala Anguila (Mallorca)</div>
@@ -321,7 +332,7 @@
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/mountains.jpg" alt="Mountains">
 				  						<div class="caption caption-blue">
-				  							<div class="sm-padding white">
+				  							<div class="sm-padding text-white">
 						  							<div class="h3">80.000€</div>
 						  							<div class="sm-margin-top">Featured Property</div>
 						  							<div>in Cala Anguila (Mallorca)</div>
@@ -330,7 +341,6 @@
 				  					</a>
 			  					</div>
 				  			</div>
-
 				  		</div><!-- end first row directories -->
 
 				  		<div class="row row-margin">
@@ -339,7 +349,7 @@
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/beach.jpg" alt="Beach">
 				  						<div class="caption caption-blue">
-				  							<div class="sm-padding white">
+				  							<div class="sm-padding text-white">
 						  							<div class="h3">500.000€</div>
 						  							<div class="sm-margin-top">Featured Property</div>
 						  							<div>in Cala Anguila (Mallorca)</div>
@@ -354,7 +364,7 @@
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/mountains.jpg" alt="Mountains">
 				  						<div class="caption caption-blue">
-				  							<div class="sm-padding white">
+				  							<div class="sm-padding text-white">
 						  							<div class="h3">80.000€</div>
 						  							<div class="sm-margin-top">Featured Property</div>
 						  							<div>in Cala Anguila (Mallorca)</div>
@@ -369,7 +379,7 @@
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/forest.jpg" alt="forest">
 				  						<div class="caption caption-blue">
-				  							<div class="sm-padding white">
+				  							<div class="sm-padding text-white">
 						  							<div class="h3">250.000€</div>
 						  							<div class="sm-margin-top">Featured Property</div>
 						  							<div>in Cala Anguila (Mallorca)</div>
@@ -384,7 +394,7 @@
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/mountains.jpg" alt="Mountains">
 				  						<div class="caption caption-blue">
-				  							<div class="sm-padding white">
+				  							<div class="sm-padding text-white">
 						  							<div class="h3">80.000€</div>
 						  							<div class="sm-margin-top">Featured Property</div>
 						  							<div>in Cala Anguila (Mallorca)</div>
@@ -393,28 +403,27 @@
 				  					</a>
 			  					</div>
 				  			</div>
-				  		</div>
+				  		</div><!-- end second row directories -->
 
 				    	<div class="text-center md-margin-top">	
-				  			<a href="#" class="text-uppercase btn btn-blue">Show more</a>
+				  			<a href="#" class="text-uppercase btn btn-xl btn-blue">Show more</a>
 				  		</div>
 				  	</div>
 			    </div><!-- End tabpanel featured property sale -->
 
 			    <div role="tabpanel" class="tab-pane" id="featured-property-rent">
 						<div class="text-center">	
-			  			<a href="#" class="text-uppercase btn btn-blue">Show more rent</a>
+			  			<a href="#" class="text-uppercase btn btn-xl btn-blue">Show more rent</a>
 			  		</div>
 			    </div><!-- End tabpanel featured property rent -->
 
 			    <div role="tabpanel" class="tab-pane" id="featured-property-holidays">
 			    	<div class="text-center">	
-			  			<a href="#" class="text-uppercase btn btn-blue">Show more holidays</a>
+			  			<a href="#" class="text-uppercase btn btn-xl btn-blue">Show more holidays</a>
 			  		</div>
 			    </div><!-- End tabpanel featured property holidays -->
 			  </div>
 	  			
-	  		
 	  	</section><!-- End Featured Properties section -->
 
 	  	<section class="xs-padding">
@@ -431,7 +440,7 @@
 		  				<div class="card md-card birds-card">	
 		  					<a class="card-link" href="#">	
 		  						<div class="va-container va-container-h va-container-v">
-		  							<div class="va-middle text-center white">
+		  							<div class="va-middle text-center text-white">
 		  								<div class="h2">Is NASA Building a Huge Rocket to Nowhere?</div>
 		  							</div>
 		  						</div>
@@ -460,7 +469,7 @@
 		  				<div class="card pais-vasco-card md-card">
 		  					<a class="card-link" href="#">	
 		  						<div class="va-container va-container-h va-container-v">
-		  							<div class="va-middle text-center white">
+		  							<div class="va-middle text-center text-white">
 		  								<div class="h2">Pais Vasco</div>
 		  							</div>
 		  						</div>
@@ -472,7 +481,7 @@
 		  				<div class="card pais-vasco-card md-card">
 		  					<a class="card-link" href="#">	
 		  						<div class="va-container va-container-h va-container-v">
-		  							<div class="va-middle text-center white">
+		  							<div class="va-middle text-center text-white">
 		  								<div class="h2">Pais Vasco</div>
 		  							</div>
 		  						</div>
@@ -484,7 +493,7 @@
 		  				<div class="card pais-vasco-card md-card">
 		  					<a class="card-link" href="#">	
 		  						<div class="va-container va-container-h va-container-v">
-		  							<div class="va-middle text-center white">
+		  							<div class="va-middle text-center text-white">
 		  								<div class="h2">Pais Vasco</div>
 		  							</div>
 		  						</div>
@@ -496,7 +505,7 @@
 		  				<div class="card pais-vasco-card md-card">
 		  					<a class="card-link" href="#">	
 		  						<div class="va-container va-container-h va-container-v">
-		  							<div class="va-middle text-center white">
+		  							<div class="va-middle text-center text-white">
 		  								<div class="h2">Pais Vasco</div>
 		  							</div>
 		  						</div>
@@ -506,7 +515,7 @@
 		  		</div>
 
 		  		<div class="text-center md-margin-top">	
-		  			<a href="#" class="text-uppercase btn btn-blue">Show more</a>
+		  			<a href="#" class="text-uppercase btn btn-xl btn-blue">Show more</a>
 		  		</div>
 		  	</div>
 	  	</section><!-- End News section -->
@@ -521,10 +530,10 @@
 	  					<a class="card-link" href="#">
 	  						<div class="card comunidad-valenciana-card md-card">
 		  						<div class="va-container va-container-h va-container-v">
-		  							<div class="va-middle text-center white">
+		  							<div class="va-middle text-center text-white">
 		  								<div class="h2">Communidad Valenciana</div>
-		  								<button href="#" class="btn btn-blue">Show on map</button>
-		  								<button href="#" class="btn btn-white">Add to favorite</button>
+		  								<button href="#" class="btn btn-blue btn-sm btn-round"><i class="fa fa-18 fa-globe"></i>&nbsp;&nbsp;Show on map</button>
+		  								<button href="#" class="btn btn-white btn-sm btn-round"><i class="fa fa-18 fa-heart-o"></i>&nbsp;&nbsp;Add to favorite</button>
 		  							</div>
 		  						</div>
 	  						</div>
@@ -534,7 +543,7 @@
 		  				<a class="card-link" href="#">	
 		  					<div class="card sevilla-card md-card">
 		  						<div class="va-container va-container-h va-container-v">
-		  							<div class="va-middle text-center white">
+		  							<div class="va-middle text-center text-white">
 		  								<div class="h2">Sevilla</div>
 		  							</div>
 		  						</div>
@@ -545,7 +554,7 @@
 		  				<a class="card-link" href="#">	
 		  					<div class="card huesca-card md-card">
 		  						<div class="va-container va-container-h va-container-v">
-		  							<div class="va-middle text-center white">
+		  							<div class="va-middle text-center text-white">
 		  								<div class="h2">Huesca</div>
 		  							</div>
 		  						</div>
@@ -560,7 +569,7 @@
 			  					<a class="card-link" href="#">	
 			  						<div class="card andalucia-card md-card">
 				  						<div class="va-container va-container-h va-container-v">
-				  							<div class="va-middle text-center white">
+				  							<div class="va-middle text-center text-white">
 				  								<div class="h2">Andalucía</div>
 				  							</div>
 				  						</div>
@@ -571,7 +580,7 @@
 			  					<a class="card-link" href="#">	
 			  						<div class="card mallorca-card md-card">
 				  						<div class="va-container va-container-h va-container-v">
-				  							<div class="va-middle text-center white">
+				  							<div class="va-middle text-center text-white">
 				  								<div class="h2">Mallorca</div>
 				  							</div>
 				  						</div>
@@ -582,7 +591,7 @@
 			  					<a class="card-link" href="#">
 			  						<div class="card madrid-card md-card">
 				  						<div class="va-container va-container-h va-container-v">
-				  							<div class="va-middle text-center white">
+				  							<div class="va-middle text-center text-white">
 				  								<div class="h2">Madrid</div>
 				  							</div>
 				  						</div>
@@ -595,7 +604,7 @@
 	  					<div class="card pais-vasco-card lg-card">
 		  					<a class="card-link" href="#">	
 		  						<div class="va-container va-container-h va-container-v">
-		  							<div class="va-middle text-center white">
+		  							<div class="va-middle text-center text-white">
 		  								<div class="h2">País Vasco</div>
 		  							</div>
 		  						</div>
@@ -604,13 +613,31 @@
 	  				</div>
 	  			</div>
 		  		<div class="text-center">	
-		  			<a href="#" class="text-uppercase btn sm-btn-blue md-margin-top">Show more destinations</a>
+		  			<a href="#" class="text-uppercase btn btn-lg btn-blue md-margin-top">Show more destinations</a>
 		  		</div>
 		  	</div>
 	  	</section><!-- End Destinations section -->
 
-	  <section>
-	  		<h2>Find a Job</h2>
+	  <section class="job-banner">
+	  		<div class="xl-padding">
+	  			<div class="row">
+		  			<div class="col-md-4 col-sm-12">
+		  				<h2 class="text-white">Find a Job</h2>
+		  				<p class="text-white">Whether you are offering part-time, full-time, permanent, short-term contract or summer work in Spain, you can post that Spanish job on thinkSPAIN.com for free!</p>
+	  					<a href="#" class="btn btn-yellow btn-md lg-margin-top">Search for a Job</a>
+			  		</div>
+		  			<div class="col-md-6 col-md-offset-2 col-sm-12">
+		  				<h2 class="text-yellow">Latest Jobs</h2>
+		  				<ul class="list-layout">
+		  					<li><div class="yellow-square"></div><a href="#">>&nbsp;&nbsp;Food Technologist <span class="text-yellow">in Valencia</span><br><span class="small text-blue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food & Truck SL</span></a></li>
+		  					<li><div class="white-bullet-point"></div><a href="#">Técnico Proyectista <span class="text-yellow">in Barcelona</span></a></li>
+		  					<li><div class="white-bullet-point"></div><a href="#">Delegado Comercial Zona Alicante <span class="text-yellow">in Barcelona</span></a></li>
+		  					<li><div class="white-bullet-point"></div><a href="#">Operario con formación técnica <span class="text-yellow">in Zaragoza</span></a></li>
+		  					<li><div class="white-bullet-point"></div><a href="#">Operario Inyección de Plástico <span class="text-yellow">in Santiago de Compostela</span></a></li>
+		  				</ul>
+		  			</div>
+	  			</div>
+	  		</div>
 	  </section><!-- End Find a job section -->
 	  	
 	  	<section class="md-padding">
@@ -630,12 +657,12 @@
 				  					</div>
 				  					<div class="va-footer">
 				  						<div class="caption-blue">
-					  						<div class="sm-padding white">
+					  						<div class="sm-padding text-white">
 					  							<div class="h3">Costaluz Lawyers</div>
 					  							<div class="sm-margin-top">Poperty, Building & Construction > Estate Agents > Andalucía</div>
 					  							<hr>
-					  							<button>Show on map</button>
-					  							<button>Add to Favorite</button>
+					  							<button href="#" class="btn btn-white btn-sm btn-round"><i class="fa fa-18 fa-globe"></i>&nbsp;&nbsp;Show on map</button>
+					  							<button href="#" class="btn btn-blue btn-sm btn-round"><i class="fa fa-18 fa-heart-o"></i>&nbsp;&nbsp;Add to Favourite</button>
 					  						</div>
 				  						</div>
 				  					</div>
@@ -655,7 +682,7 @@
 				  					</div>
 				  					<div class="va-footer">
 				  						<div class="caption-blue">
-					  						<div class="sm-padding white">
+					  						<div class="sm-padding text-white">
 					  							<div class="h3">Mileno Real Estate Agency</div>
 					  							<div class="sm-margin-top">Poperty, Building & Construction > Estate Agents > Andalucía</div>
 					  						</div>
@@ -677,7 +704,7 @@
 				  					</div>
 				  					<div class="va-footer">
 				  						<div class="caption-blue">
-					  						<div class="sm-padding white">
+					  						<div class="sm-padding text-white">
 					  							<div class="h3">Sergio Fernandez Properties</div>
 					  							<div class="sm-margin-top">Poperty, Building & Construction > Estate Agents > Andalucía</div>
 					  						</div>
@@ -699,7 +726,7 @@
 				  					</div>
 				  					<div class="va-footer">
 				  						<div class="caption-blue">
-					  						<div class="sm-padding white">
+					  						<div class="sm-padding text-white">
 					  							<div class="h3">Siesta Home</div>
 					  							<div class="h3"> Group</div>
 					  							<div class="sm-margin-top">Poperty, Building & Construction > Estate Agents > Andalucía</div>
@@ -725,7 +752,7 @@
 				  					</div>
 				  					<div class="va-footer">
 				  						<div class="caption-blue">
-					  						<div class="sm-padding white">
+					  						<div class="sm-padding text-white">
 					  							<div class="h3">Costaluz Lawyers</div>
 					  							<div class="h3">&nbsp;</div>
 					  							<div class="sm-margin-top">Poperty, Building & Construction > Estate Agents > Andalucía</div>
@@ -748,7 +775,7 @@
 				  					</div>
 				  					<div class="va-footer">
 				  						<div class="caption-blue">
-					  						<div class="sm-padding white">
+					  						<div class="sm-padding text-white">
 					  							<div class="h3">Mileno Real Estate Agency</div>
 					  							<div class="sm-margin-top">Poperty, Building & Construction > Estate Agents > Andalucía</div>
 					  						</div>
@@ -770,7 +797,7 @@
 				  					</div>
 				  					<div class="va-footer">
 				  						<div class="caption-blue">
-					  						<div class="sm-padding white">
+					  						<div class="sm-padding text-white">
 					  							<div class="h3">Sergio Fernandez Properties</div>
 					  							<div class="sm-margin-top">Poperty, Building & Construction > Estate Agents > Andalucía</div>
 					  						</div>
@@ -792,7 +819,7 @@
 				  					</div>
 				  					<div class="va-footer">
 				  						<div class="caption-blue">
-					  						<div class="sm-padding white">
+					  						<div class="sm-padding text-white">
 					  							<div class="h3">Siesta Home</div>
 					  							<div class="h3"> Group</div>
 					  							<div class="sm-margin-top">Poperty, Building & Construction > Estate Agents > Andalucía</div>
@@ -805,7 +832,7 @@
 		  			</div>
 		  		</div>
 		  		<div class="text-center md-margin-top">
-		  			<a href="#" class="text-uppercase btn btn-blue">Show more</a>
+		  			<a href="#" class="text-uppercase btn btn-xl btn-blue">Show more</a>
 		  		</div>
 		  	</div>
 	  	</section><!-- End Featured Properties section -->
@@ -816,12 +843,12 @@
 	  	<div class="container-fluid">
 			  <div class="md-padding">	
 			  	<div class="title-section">	
-			  		<h2 class="white">Most Popular</h2>
+			  		<h2 class="text-white">Most Popular</h2>
 			  	</div>
 			  	<div class="md-padding">
 				  	<div class="row">
 				  		<div class="col-sm-3">
-				  			<h3>Regions</h3>
+				  			<h3 class="text-yellow">Regions</h3>
 				  			<ul class="list-layout">
 				  				<li><a href="#">Alicante</a></li>
 				  				<li><a href="#">Almería</a></li>
@@ -839,7 +866,7 @@
 				  			</ul>
 				  		</div>
 				  		<div class="col-sm-3">
-				  			<h3>Provinces</h3>
+				  			<h3 class="text-yellow">Provinces</h3>
 				  			<ul class="list-layout">
 				  				<li><a href="#">Valencian community</a></li>
 				  				<li><a href="#">Andalusia</a></li>
@@ -857,7 +884,7 @@
 				  			</ul>
 				  		</div>
 				  		<div class="col-sm-3">
-				  			<h3>Coasts</h3>
+				  			<h3 class="text-yellow">Coasts</h3>
 				  			<ul class="list-layout">
 				  				<li><a href="#">Costa Almería</a></li>
 				  				<li><a href="#">Costa Blanca</a></li>
@@ -875,7 +902,7 @@
 				  			</ul>
 				  		</div>
 				  		<div class="col-sm-3">
-				  			<h3>Islands</h3>
+				  			<h3 class="text-yellow">Islands</h3>
 				  			<ul class="list-layout">
 				  				<li><a href="#">Almunecar</a></li>
 				  				<li><a href="#">Altea</a></li>
