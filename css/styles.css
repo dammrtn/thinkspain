@@ -69,6 +69,7 @@ h4, .h4{
 
 .category-news,
 .category-tech,
+.category-science,
 .category-politics{
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -76,6 +77,7 @@ h4, .h4{
 
 .category-news{color: #4382ce;}
 .category-tech{color: #ffc43f;}
+.category-science{color: #50ab29;}
 .category-politics{color: #b03be5;}
 
 .popular-searches a,

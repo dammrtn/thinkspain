@@ -4,6 +4,16 @@
 	height: 400px;
 }
 
+.content-carousel{
+	position: absolute;
+	z-index: 50;
+	color: #fff;
+	bottom: 100px;
+	width: 80%;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
 /* 
  * 	Customization arrows carousel
  */
@@ -15,27 +25,31 @@
 
 .owl-theme .owl-nav [class*='owl-'] {
 	position:absolute;
+	z-index: 15;
 	bottom:10px;
 	width:40px;
 	height:40px;
 	color: #fff;
-    font-size:20px;
-    background: transparent;
-    display: inline-block;
-    cursor: pointer;
-    width: 30%;
-    margin-right: auto;
-    margin-left: auto;
+  font-size:20px;
+  background: transparent;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    text-decoration: none;
 }
 
 .owl-theme .owl-nav .disabled {
-    opacity: 0.5;
-    cursor: default;
+  opacity: 0.5;
+  cursor: default;
 }
 
 .owl-theme .owl-controls .owl-nav .owl-next {
 	left: auto;
-	right: 0;
+	right: 13%;
 }
 
 .owl-carousel-full .owl-controls .owl-nav .owl-next {
@@ -45,7 +59,7 @@
 
 .owl-theme .owl-controls .owl-nav .owl-prev {
 	right: auto;
-	left: 0px;
+	left: 13%;
 }
 
 .owl-carousel-full .owl-controls .owl-nav .owl-prev {
@@ -71,6 +85,7 @@
 	text-align: center;
 	-webkit-tap-highlight-color: transparent;
 	position:absolute;
+	z-index: 10;
 	bottom:10px;
 	width: 100%;
 	margin-right: auto;
@@ -103,4 +118,15 @@
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
 	background: #fff;
+}
+
+.carousel-bar{
+	position: absolute;
+	left: 15%;
+	z-index: 10;
+	color: #fff;
+	width: 70%;
+	border: 1px solid #fff;
+	bottom: 35px;
+	text-align: center;
 }
