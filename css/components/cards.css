@@ -1,5 +1,6 @@
 .md-card{height: 350px;}
-.lg-card{height: 730px;}
+.lg-card{height: 400px;}
+.xl-card{height: 730px;}
 
 .card{
   background-color: #fff;
@@ -30,12 +31,6 @@
 .madrid-card{background-image: url(../../images/destinations/madrid.jpg);}
 .pais-vasco-card{background-image: url(../../images/destinations/paisvasco.jpg);}
 
-.beach-card{
-	background-image: url(../../images/news/beach.jpg) no-repeat center fixed;
-	background-size: 100% auto;
-  width: 100%;
-}
-
 .thumbnail{
 	border:0;
 	border-radius: 0;
@@ -45,3 +40,25 @@
 
 .thumbnail img{min-width:100%;}
 .thumbnail .caption{padding:0}
+
+.card-image{
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.card-body{
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.full-image{width: 100%;}
+
+.caption-white{
+  background-color: #fff;
+  color: #212121;
+  padding: 20px 10px 10px 10px!important;
+}

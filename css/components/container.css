@@ -216,3 +216,16 @@ footer{
 .va-header{display:table-header-group;}
 .va-footer{display:table-footer-group;
   border:0;}
+
+.container-flex{
+	display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}

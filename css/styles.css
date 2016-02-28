@@ -39,6 +39,9 @@ body{
 .text-white{color:#fff!important;}
 .text-yellow{color:#ffde00!important;}
 .text-blue{color:#4382ce!important;}
+.light-grey{color:#9e9e9e!important;}
+
+.text12{font-size: 12px;}
 
 h2, .h2{
 	font-size:32px;
@@ -51,6 +54,10 @@ h3, .h3{
 	margin:0;
 }
 
+h4, .h4{
+	font-weight: bold;
+}
+
 .fa-18{font-size: 18px; vertical-align: middle;}
 
 .breaking-news{
@@ -58,6 +65,17 @@ h3, .h3{
 	padding-top: 5px;
 	padding-bottom: 10px;
 }
+
+.category-news,
+.category-tech,
+.category-politics{
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.category-news{color: #4382ce;}
+.category-tech{color: #ffc43f;}
+.category-politics{color: #b03be5;}
 
 .popular-searches a,
 .popular-searches span{
