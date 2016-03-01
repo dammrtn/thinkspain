@@ -1,0 +1,58 @@
+
+.text-uppercase{text-transform: uppercase;}
+
+.float-right{float:right!important;}
+.float-left{float:left!important;}
+.text-center{text-align: center!important;}
+.text-right{text-align:right!important;}
+.text-left{text-align:left!important;}
+
+.text-white{color:#fff!important;}
+.text-yellow{color:#ffde00!important;}
+.text-blue{color:#4382ce!important;}
+.light-grey{color:#9e9e9e!important;}
+
+.text12{font-size: 12px;}
+
+h2, .h2{
+	font-size:32px;
+	font-weight: bold;
+}
+
+h3, .h3{
+	font-size:26px;
+	font-weight: bold;
+	margin:0;
+}
+
+h4, .h4{
+	font-weight: bold;
+}
+
+.fa-18{font-size: 18px; vertical-align: middle;}
+
+.breaking-news{
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.category-news,
+.category-tech,
+.category-science,
+.category-politics{
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.category-news{color: #4382ce;}
+.category-tech{color: #ffc43f;}
+.category-science{color: #50ab29;}
+.category-politics{color: #b03be5;}
+
+.popular-searches a,
+.popular-searches span{
+	font-weight: bold;
+	color: #fff;
+	text-decoration: underline;
+}

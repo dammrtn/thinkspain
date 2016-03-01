@@ -1,0 +1,150 @@
+@media (min-width: 768px) {
+  .sm-container {
+    width: 590px;
+  }
+
+	.content-section{
+		padding: 10px;
+	}
+
+	.title-section{
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  border-bottom: 1px solid #bdbdbd;
+	  padding-bottom: 10px;
+	}
+
+	.title-section h2{
+	  font-size: 24px;
+	  font-weight: bold;
+	  color:#4382ce;
+	  margin:0;
+	  display: inline-block;
+	}
+}
+
+@media (min-width: 992px) {
+  .sm-container {
+    width: 760px;
+  }
+
+	.content-section{
+		padding: 25px;
+	}
+
+	.title-section{
+	  padding-left: 25px;
+	  padding-right: 25px;
+	  border-bottom: 1px solid #bdbdbd;
+	  padding-bottom: 10px;
+	}
+
+	.title-section h2{
+	  font-size: 24px;
+	  font-weight: bold;
+	  color:#4382ce;
+	  margin:0;
+	  display: inline-block;
+	}
+}
+
+@media (min-width: 1200px) {
+	.sm-container {
+    width: 920px;
+  }
+
+	.content-section{
+		padding: 50px;
+	}
+
+	.title-section{
+	  padding-left: 50px;
+	  padding-right: 50px;
+	  border-bottom: 1px solid #bdbdbd;
+	  padding-bottom: 10px;
+	}
+
+	.title-section h2{
+	  font-size: 24px;
+	  font-weight: bold;
+	  color:#4382ce;
+	  margin:0;
+	  display: inline-block;
+	}
+}
+
+
+@media screen and (min-width: 768px){
+	.small-menu-responsive,
+	.main-menu-responsive{display: none;}
+}
+
+
+@media screen and (max-width: 767px){
+	.tabs-searchbar .fa-2x{
+		font-size:16px;
+	}
+
+	.row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.tabs-searchbar > li > a,
+	.tabs-searchbar > li > a:focus{
+    padding: 15px 0;
+  }
+
+	.btn-lg{padding: 10px!important}
+	
+	.small-menu,
+	.main-menu{display: none;}
+
+	.small-menu-responsive,
+	.main-menu-responsive{display: block;}
+
+	.small-menu-responsive{
+		position: absolute;
+		z-index: 5;
+		top:0;
+		height: 45px;
+		width: 100%;
+		background-color: #333333;
+		color: #fff;
+	}
+
+	.header-icon{
+		top:10px;
+		left:10px;
+		position: absolute;
+		display: block;
+		float: left;
+		width: 45px;
+		height: 45px;
+		cursor: pointer;
+		background-color:transparent;
+	}
+
+	.logo-responsive{
+		margin-top:5px;
+		width:35px;
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+	.main-menu-responsive{
+		position: absolute;
+		z-index: 5;
+		top:45px;
+		padding:5px 0;
+		width: 100%;
+		background-color: #fff;
+		border-bottom: 1px solid #bdbdbd;
+		color: #333333;
+	}
+
+	.main-menu-responsive .fa{
+		font-size: 32px;
+	}
+}

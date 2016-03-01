@@ -7,14 +7,6 @@ $(document).ready(function(){
 
 	$('#counter').html(''+currentIndex+'/'+totalItems+'');
 	$('#counter2').html(''+currentIndex2+'/'+totalItems2+'');
-/*
-	$('#carousel-property').carousel({
-	    interval: 3000
-	});
-
-	$('#carousel-property2').carousel({
-	    interval: 3000
-	});*/
 
 	$('#carousel-property').on('slid.bs.carousel', function() {
 	    currentIndex = $('#carousel-property .item.active').index() + 1;

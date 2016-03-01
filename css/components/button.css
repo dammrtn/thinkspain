@@ -5,11 +5,14 @@
 }
 
 .btn-sm{padding: 7px 10px!important;}
+
 .btn-md{padding: 10px 30px!important;}
+
 .btn-lg{
 	font-size: 14px;
 	padding:13px 45px!important;
 }
+
 .btn-xl{padding:13px 90px!important;}
 
 .btn-round{border-radius: 20px;}
