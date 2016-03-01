@@ -30,6 +30,7 @@
 .mallorca-card{background-image: url(../../images/destinations/mallorca.jpg);}
 .madrid-card{background-image: url(../../images/destinations/madrid.jpg);}
 .pais-vasco-card{background-image: url(../../images/destinations/paisvasco.jpg);}
+.sold-card{background-image: url(../../images/news/sold.jpg);}
 
 .thumbnail{
 	border:0;
@@ -40,6 +41,11 @@
 
 .thumbnail img{min-width:100%;}
 .thumbnail .caption{padding:0}
+
+.thumbnail a,
+.thumbnail a:hover{
+  text-decoration: none;
+}
 
 .card-image{
   -webkit-box-flex: 0;
@@ -61,4 +67,10 @@
   background-color: #fff;
   color: #212121;
   padding: 20px 10px 10px 10px!important;
+}
+
+.caption-white hr,
+.caption-blue hr{
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
