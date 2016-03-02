@@ -1,5 +1,17 @@
 $(document).ready(function(){
 	
+	/* Header */
+  $('#header-icon').click(function(e){
+    e.preventDefault();
+    $('body').toggleClass('with-sidebar');
+  });
+
+  $('#close-icon').click(function(e){
+    $('body').removeClass('with-sidebar');
+  });
+
+	/* Carousel */
+
 	var totalItems = $('#carousel-property .item').length;
 	var totalItems2 = $('#carousel-property2 .item').length;
 	var currentIndex = $('#carousel-property .item.active').index() + 1;
