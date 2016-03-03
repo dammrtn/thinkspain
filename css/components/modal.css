@@ -27,3 +27,16 @@
   border: 0;
   border-top: 1px solid #dce0e0;
 }
+
+.icon-container{
+	position: absolute;
+  font-size: 24px;
+  top: 18px;
+  left: 35px;
+}
+
+.icon-google-container{
+	position: absolute;
+  top: 70px;
+  left: 35px;
+}

@@ -69,3 +69,38 @@
 	background-color: #edce00;
 	color: #5b4701;
 }
+
+.btn-facebook,
+.btn-google,
+.btn-form{
+	text-decoration: none;
+	font-weight: bold;
+	padding:10px;
+}
+
+.btn-facebook{
+	background-color: #3B5998;
+	color: #fff;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus{
+	background-color: #4568b2;
+	color: #fff;
+}
+
+.btn-google{
+	background-color: #fff;
+	border:1px solid #bdbdbd;
+	color:#333;
+}
+
+.btn-google:hover,
+.btn-google:focus{
+	border:1px solid #9e9e9e;
+}
+
+.btn-form{
+	background-color: #ffde00;
+	color: #5b4701;
+}
