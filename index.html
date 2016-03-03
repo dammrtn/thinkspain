@@ -68,7 +68,7 @@
 
   		<div class="main-menu-responsive text-center">
   			<a role="button" data-toggle="collapse" href="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu">
-				  <i class="fa fa-angle-down"></i>
+				  <i id="menu-arrow" class="fa fa-angle-down"></i>
 				</a>
 				<div class="collapse" id="collapseMenu">
 				  <ul class="list-menu-responsive">
@@ -151,7 +151,10 @@
 			    		</form>
 			    	</div>
 			    	<div class="text-center sm-margin-top popular-searches">	
-			    		<span>Popular Searches: </span><a href="#">Valencia, </a><a href="#">Andalucía, </a><a href="#">Barcelona, </a><a href="#">Madrid, </a><a href="#">Málaga, </a><a href="#">Torrevieja</a> <a href="#"><i class="fa fa-plus-square"></i></a>
+			    		<span>Popular Searches: </span><a href="#">Valencia, </a><a href="#">Andalucía, </a><a href="#">Barcelona, </a><a href="#">Madrid, </a><a href="#">Málaga, </a><a href="#">Torrevieja</a> <a role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-plus-square"></i></a>
+			    		<div class="collapse" id="collapseExample">
+							  <a href="#">Alicante, </a><a href="#">Bilbao, </a><a href="#">Sevilla</a>
+							</div>
 			    	</div>
 			    </div>
 
@@ -325,7 +328,7 @@
 	  	<section class="content-section">
 		  	<div class="title-section">	
 		  		<h2>Featured Properties</h2>
-		  		<ul class="nav nav-tabs" role="tablist">
+		  		<ul class="nav nav-tabs rm-block" role="tablist">
 				    <li role="presentation" class="active"><a href="#featured-property-sale" aria-controls="featured-property-sale" role="tab" data-toggle="tab">For Sale</a></li>
 				    <li role="presentation"><a href="#featured-property-rent" aria-controls="featured-property-rent" role="tab" data-toggle="tab">For Rent</a></li>
 				    <li role="presentation"><a href="#featured-property-holidays" aria-controls="featured-property-holidays" role="tab" data-toggle="tab">For Holidays</a></li>
@@ -336,52 +339,52 @@
 			    <div role="tabpanel" class="tab-pane active" id="featured-property-sale">
 				    <div class="content-section">
 				    	<div class="row">
-				  			<div class="col-md-3">
+				  			<div class="col-md-3 rm-margin-top-sm">
 					  			<div class="thumbnail">
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/beach.jpg" alt="Beach">
 				  						<div class="caption caption-blue">
 				  							<div class="sm-padding text-white">
-						  							<div class="h3">500.000€</div>
-						  							<div class="sm-margin-top">Featured Property</div>
-						  							<div>in Cala Anguila (Mallorca)</div>
-						  						</div>
+						  						<div class="h3">500.000€</div>
+						  						<div class="sm-margin-top">Featured Property</div>
+						  						<div>in Cala Anguila (Mallorca)</div>
+						  					</div>
 				  						</div>
 				  					</a>
 			  					</div>
 				  			</div>
 
-				  			<div class="col-md-3">
+				  			<div class="col-md-3 rm-margin-top-sm">
 					  			<div class="thumbnail">
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/mountains.jpg" alt="Mountains">
 				  						<div class="caption caption-blue">
 				  							<div class="sm-padding text-white">
-						  							<div class="h3">80.000€</div>
-						  							<div class="sm-margin-top">Featured Property</div>
-						  							<div>in Cala Anguila (Mallorca)</div>
-						  						</div>
+					  							<div class="h3">80.000€</div>
+					  							<div class="sm-margin-top">Featured Property</div>
+					  							<div>in Cala Anguila (Mallorca)</div>
+					  						</div>
 				  						</div>
 				  					</a>
 			  					</div>
 				  			</div>
 
-				  			<div class="col-md-3">
+				  			<div class="col-md-3 rm-margin-top-sm">
 					  			<div class="thumbnail">
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/forest.jpg" alt="forest">
 				  						<div class="caption caption-blue">
 				  							<div class="sm-padding text-white">
-						  							<div class="h3">250.000€</div>
-						  							<div class="sm-margin-top">Featured Property</div>
-						  							<div>in Cala Anguila (Mallorca)</div>
-						  						</div>
+					  							<div class="h3">250.000€</div>
+					  							<div class="sm-margin-top">Featured Property</div>
+					  							<div>in Cala Anguila (Mallorca)</div>
+					  						</div>
 				  						</div>
 				  					</a>
 			  					</div>
 				  			</div>
 
-				  			<div class="col-md-3">
+				  			<div class="col-md-3 rm-margin-top-sm">
 					  			<div class="thumbnail">
 										<div id="carousel-property" class="carousel slide" data-ride="carousel">
 										  
@@ -602,7 +605,7 @@
 			  					</div>
 				  			</div>
 
-				  			<div class="col-md-3">
+				  			<div class="col-md-3 rm-margin-top-sm">
 					  			<div class="thumbnail">
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/mountains.jpg" alt="Mountains">
@@ -617,7 +620,7 @@
 			  					</div>
 				  			</div>
 
-				  			<div class="col-md-3">
+				  			<div class="col-md-3 rm-margin-top-sm">
 					  			<div class="thumbnail">
 				  					<a class="card-link" href="#">
 				  						<img src="images/news/forest.jpg" alt="forest">
@@ -632,7 +635,7 @@
 			  					</div>
 				  			</div>
 
-				  			<div class="col-md-3">
+				  			<div class="col-md-3 rm-margin-top-sm">
 					  			<div class="thumbnail">
 										<div id="carousel-property2" class="carousel slide" data-ride="carousel">
 										  
@@ -836,7 +839,7 @@
 				  			</div>
 				  		</div><!-- end second row directories -->
 
-				    	<div class="text-center md-margin-top">	
+				    	<div class="text-center md-margin-top rm-margin-bottom-sm">	
 				  			<a href="#" class="text-uppercase btn btn-xl btn-blue">Show more</a>
 				  		</div>
 				  	</div>
@@ -857,7 +860,7 @@
 	  			
 	  	</section><!-- End Featured Properties section -->
 
-	  	<section class="xs-padding">
+	  	<section class="content-section">
 	  			<img src="images/banner.jpg" alt="Banner Ad" class="center-block img-responsive">
 	  	</section><!-- End Banner Ad section -->
 
@@ -867,7 +870,7 @@
 		  	</div>
 		  	<div class="content-section">
 		  		<div class="row">
-		  			<div class="col-md-8">
+		  			<div class="col-md-8 rm-margin-top-sm">
 		  				<div class="card card-lg">
 			  				<div id="owl-carousel" class="owl-carousel">
 			  					<div class="item">
@@ -919,18 +922,18 @@
 				  		</div>
 		  			</div>
 
-		  			<div class="col-md-4">
+		  			<div class="col-md-4 rm-margin-top-sm">
 		  				<div class="card md-card">
 		  					<div class="sm-padding">
 				  				<span class="h3">Top Stories</span>
 				  				<hr>
-				  				<span class="breaking-news">Force evacuations after dam breaks</span>
-				  				<span class="breaking-news">5 things you need to know Wednesday</span>
-				  				<span class="breaking-news">Russia open to coordinationg with U.S. on Syria</span>
-				  				<span class="breaking-news">Armour: Changes coming to daily fantasy sports</span>
-				  				<span class="breaking-news">Woman punched by cop video arrested again</span>
-				  				<span class="breaking-news">Once-in-alifetime 'shot at L.A. NFL team</span>
-				  				<span class="breaking-news">Pilot get ill, loses consiousness during flight</span>
+				  				<a href="#" class="breaking-news">Force evacuations after dam breaks</a>
+				  				<a href="#" class="breaking-news">5 things you need to know Wednesday</a>
+				  				<a href="#" class="breaking-news">Russia open to coordinationg with U.S. on Syria</a>
+				  				<a href="#" class="breaking-news">Armour: Changes coming to daily fantasy sports</a>
+				  				<a href="#" class="breaking-news">Woman punched by cop video arrested again</a>
+				  				<a href="#" class="breaking-news">Once-in-alifetime 'shot at L.A. NFL team</a>
+				  				<a href="#" class="breaking-news">Pilot get ill, loses consiousness during flight</a>
 				  			</div>
 			  			</div>
 		  			</div>
@@ -958,7 +961,7 @@
 	  					</div>
   					</div>
 
-		  			<div class="col-md-3">
+		  			<div class="col-md-3 rm-margin-top-sm">
 		  				<div class="card md-card container-flex">
 		  					<a class="card-link" href="#">
 	  							<div class="card-image">
@@ -975,7 +978,7 @@
 	  					</div>
 		  			</div>
 
-		  			<div class="col-md-3">
+		  			<div class="col-md-3 rm-margin-top-sm">
 		  				<div class="card md-card container-flex">
 		  					<a class="card-link" href="#">
 	  							<div class="card-image">
@@ -992,7 +995,7 @@
 	  					</div>
 		  			</div>
 
-		  			<div class="col-md-3">
+		  			<div class="col-md-3 rm-margin-top-sm">
 		  				<a class="card-link" href="#">
 	  						<div class="card sold-card md-card">
 		  						<div class="va-container va-container-h va-container-v">
@@ -1008,7 +1011,7 @@
 	  				</div>
 		  		</div>
 
-		  		<div class="text-center md-margin-top">	
+		  		<div class="text-center md-margin-top rm-margin-bottom-sm">	
 		  			<a href="#" class="text-uppercase btn btn-xl btn-blue">Show more</a>
 		  		</div>
 		  	</div>
@@ -1020,7 +1023,7 @@
 		  	</div>
 	  		<div class="content-section">
 	  			<div class="row">
-	  				<div class="col-lg-6 col-md-12">
+	  				<div class="col-lg-6 col-md-12 rm-margin-top-sm">
 	  					<a class="card-link" href="#">
 	  						<div class="card comunidad-valenciana-card md-card">
 		  						<div class="va-container va-container-h va-container-v">
@@ -1033,7 +1036,7 @@
 	  						</div>
 		  				</a>
 	  				</div>
-	  				<div class="col-lg-3 col-md-6 col-sm-12">
+	  				<div class="col-lg-3 col-md-6 col-sm-12 rm-margin-top-sm">
 		  				<a class="card-link" href="#">	
 		  					<div class="card sevilla-card md-card">
 		  						<div class="va-container va-container-h va-container-v">
@@ -1044,7 +1047,7 @@
 		  					</div>
 		  				</a>
 	  				</div>
-	  				<div class="col-lg-3 col-md-6 col-sm-12">
+	  				<div class="col-lg-3 col-md-6 col-sm-12 rm-margin-top-sm">
 		  				<a class="card-link" href="#">	
 		  					<div class="card huesca-card md-card">
 		  						<div class="va-container va-container-h va-container-v">
@@ -1070,7 +1073,7 @@
 				  					</div>
 				  				</a>
 		  					</div>
-		  					<div class="col-md-6 col-sm-12">
+		  					<div class="col-md-6 col-sm-12 rm-margin-top-sm">
 			  					<a class="card-link" href="#">	
 			  						<div class="card mallorca-card md-card">
 				  						<div class="va-container va-container-h va-container-v">
@@ -1094,7 +1097,7 @@
 		  					</div>
 		  				</div>
 	  				</div>
-	  				<div class="col-md-6 col-sm-12">
+	  				<div class="col-md-6 col-sm-12 rm-margin-top-sm">
 	  					<div class="card pais-vasco-card xl-card">
 		  					<a class="card-link" href="#">	
 		  						<div class="va-container va-container-h va-container-v">
@@ -1106,7 +1109,7 @@
 	  					</div>
 	  				</div>
 	  			</div>
-		  		<div class="text-center">	
+		  		<div class="text-center rm-margin-bottom-sm">	
 		  			<a href="#" class="text-uppercase btn btn-lg btn-blue md-margin-top">Show more destinations</a>
 		  		</div>
 		  	</div>
@@ -1140,7 +1143,7 @@
 		  	</div>
 		  	<div class="content-section">
 		  		<div class="row">
-		  			<div class="col-md-3">
+		  			<div class="col-md-3 rm-margin-top-sm">
 		  				<div class="card md-card">
 		  					<a class="card-link" href="#">
 			  					<div class="va-container va-container-h va-container-v">
@@ -1165,7 +1168,7 @@
 	  					</div>
 		  			</div>
 
-		  			<div class="col-md-3">
+		  			<div class="col-md-3 rm-margin-top-sm">
 		  				<div class="card md-card">
 		  					<a class="card-link" href="#">
 			  					<div class="va-container va-container-h va-container-v">
@@ -1187,7 +1190,7 @@
 	  					</div>
 		  			</div>
 
-		  			<div class="col-md-3">
+		  			<div class="col-md-3 rm-margin-top-sm">
 		  				<div class="card md-card">
 		  					<a class="card-link" href="#">
 			  					<div class="va-container va-container-h va-container-v">
@@ -1209,7 +1212,7 @@
 	  					</div>
 		  			</div>
 
-		  			<div class="col-md-3">
+		  			<div class="col-md-3 rm-margin-top-sm">
 		  				<div class="card md-card">
 		  					<a class="card-link" href="#">
 			  					<div class="va-container va-container-h va-container-v">
@@ -1235,7 +1238,7 @@
 		  		</div><!-- end first row directories -->
 
 		  		<div class="row row-margin">
-		  			<div class="col-md-3">
+		  			<div class="col-md-3 rm-margin-top-sm">
 		  				<div class="card md-card">
 		  					<a class="card-link" href="#">
 			  					<div class="va-container va-container-h va-container-v">
@@ -1258,7 +1261,7 @@
 	  					</div>
 		  			</div>
 
-		  			<div class="col-md-3">
+		  			<div class="col-md-3 rm-margin-top-sm">
 		  				<div class="card md-card">
 		  					<a class="card-link" href="#">
 			  					<div class="va-container va-container-h va-container-v">
@@ -1280,7 +1283,7 @@
 	  					</div>
 		  			</div>
 
-		  			<div class="col-md-3">
+		  			<div class="col-md-3 rm-margin-top-sm">
 		  				<div class="card md-card">
 		  					<a class="card-link" href="#">
 			  					<div class="va-container va-container-h va-container-v">
@@ -1302,7 +1305,7 @@
 	  					</div>
 		  			</div>
 
-		  			<div class="col-md-3">
+		  			<div class="col-md-3 rm-margin-top-sm">
 		  				<div class="card md-card">
 		  					<a class="card-link" href="#">
 			  					<div class="va-container va-container-h va-container-v">
@@ -1325,7 +1328,7 @@
 	  					</div>
 		  			</div>
 		  		</div>
-		  		<div class="text-center md-margin-top">
+		  		<div class="text-center md-margin-top rm-margin-bottom-sm">
 		  			<a href="#" class="text-uppercase btn btn-xl btn-blue">Show more</a>
 		  		</div>
 		  	</div>

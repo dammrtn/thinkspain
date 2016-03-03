@@ -8,8 +8,6 @@
 	}
 
 	.title-section{
-	  padding-left: 10px;
-	  padding-right: 10px;
 	  border-bottom: 1px solid #bdbdbd;
 	  padding-bottom: 10px;
 	}
@@ -96,7 +94,7 @@
     padding: 15px 0;
   }
 
-	.btn-lg{padding: 10px!important}
+	.btn-lg{padding: 13px 20px!important;}
 	
 	.small-menu,
 	.main-menu{display: none;}
@@ -204,10 +202,10 @@
 		height: 100vh;
 		background-color: #333333;
 		-ms-transform: translateY(-100vh); /* IE 9 */
-    -webkit-transform: translateY(-100vh); /* Chrome, Safari, Opera */
-    transform: translateY(-100vh);
-    -webkit-transition: 0.35s ease-in;
-    transition: 0.35s ease-in;
+	    -webkit-transform: translateY(-100vh); /* Chrome, Safari, Opera */
+	    transform: translateY(-100vh);
+	    -webkit-transition: 0.35s ease-in;
+	    transition: 0.35s ease-in;
 		list-style:none;
 	}
 
@@ -241,5 +239,48 @@
 	.main-menu-responsive a{
 		text-decoration: none;
 		color: #333333;
+	}
+
+	.row-margin,
+	.rm-margin-top-sm{
+		margin-top: 20px;
+	}
+
+	.rm-margin-bottom-sm{
+		margin-bottom: 20px;
+	}
+
+	.content-carousel{
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 100%;
+	}
+
+	.sm-padding hr{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.col-md-6 .row .col-sm-12,
+	.col-md-6 .row .col-md-12{
+		padding-right: 0!important;
+		padding-left: 0!important;
+	}
+
+	.job-banner{
+		height: 650px;
+	}
+
+	.job-banner .xl-padding{
+		padding: 10px 15px!important;
+	}
+
+	.job-banner .lg-margin-top{
+		margin-top: 15px!important;
+	}
+
+	.rm-block{
+		display: block!important;
+		float: none!important;
 	}
 }

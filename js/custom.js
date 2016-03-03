@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	
 	/* Header */
+
   $('#header-icon').click(function(e){
     e.preventDefault();
     $('body').toggleClass('with-sidebar');
@@ -10,7 +11,12 @@ $(document).ready(function(){
     $('body').removeClass('with-sidebar');
   });
 
-	/* Carousel */
+  $("#menu-arrow").on('click', function (){
+  	$(this).toggleClass('arrow-rotate arrow-transition');
+  });
+
+
+	/* Carousels */
 
 	var totalItems = $('#carousel-property .item').length;
 	var totalItems2 = $('#carousel-property2 .item').length;
