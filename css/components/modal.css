@@ -1,0 +1,29 @@
+.modal-content,
+.form-control{
+	border-radius: 2px;
+}
+
+.modal-header{
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.signup-or-divider{
+  background: none;
+  height: 34px;
+  position: relative;
+  text-align: center;
+}
+
+.signup-or-divider-text{
+  background-color: #fff;
+  display: inline-block;
+  padding: 8px;
+}
+
+.signup-or-divider hr {
+  margin: -16px auto 10px;
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #dce0e0;
+}
