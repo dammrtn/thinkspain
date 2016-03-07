@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+
 	/* Header */
 
   $('#header-icon').click(function(e){
@@ -14,7 +14,6 @@ $(document).ready(function(){
   $("#menu-arrow").on('click', function (){
   	$(this).toggleClass('arrow-rotate arrow-transition');
   });
-
 
 	/* Carousels */
 

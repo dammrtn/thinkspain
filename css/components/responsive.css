@@ -71,37 +71,14 @@
 	}
 }
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) {
-  	.row-margin,
-		.rm-margin-top-sm{
-			margin-top: 20px;
-		}
-
-		.btn-white-search,
-		.btn-yellow{
-			font-size: 14px;
-		}
-
-		.btn-yellow{padding:10px 15px;}
-
-		.div-btn-white{
-			padding-right: 5px;
-			padding-left: 5px;
-		}
-
-}
-
-
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1025px){
 	.small-menu-responsive,
 	.main-menu-responsive,
 	.menu-responsive-header {display: none;}
 }
 
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1024px){
 	.tabs-searchbar .fa-2x{
 		font-size:16px;
 	}
@@ -224,10 +201,10 @@
 		height: 100vh;
 		background-color: #333333;
 		-ms-transform: translateY(-100vh); /* IE 9 */
-	    -webkit-transform: translateY(-100vh); /* Chrome, Safari, Opera */
-	    transform: translateY(-100vh);
-	    -webkit-transition: 0.35s ease-in;
-	    transition: 0.35s ease-in;
+    -webkit-transform: translateY(-100vh); /* Chrome, Safari, Opera */
+    transform: translateY(-100vh);
+    -webkit-transition: 0.35s ease-in;
+    transition: 0.35s ease-in;
 		list-style:none;
 	}
 
@@ -304,6 +281,14 @@
 	.rm-block{
 		display: block!important;
 		float: none!important;
+	}
+
+	.card-image img{
+		max-height: 240px!important;
+	}
+
+	.xl-card{
+		height: 400px;
 	}
 
 	footer{
